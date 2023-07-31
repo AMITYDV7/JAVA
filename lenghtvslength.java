@@ -8,7 +8,12 @@ public class lenghtvslength {
             {2,5,7},
             {2,7}
         };
-        
+        int nums[][] = {
+            {3,5,67,45},
+            {2,5,8},
+            {2,7}
+        };
+
 
         }
     }
