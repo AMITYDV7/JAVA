@@ -23,6 +23,7 @@ int a[]={2,34,5};
 System.out.println(a[2]);
 int b[]={2,34,5};
 System.out.println(b[2]);
+int c[] ={3,5,6,7};
         }
     }
 
