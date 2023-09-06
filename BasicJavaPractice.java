@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 public class BasicJavaPractice 
 {
     // This is the question <<<----number 6--------> of exercise
@@ -43,4 +43,17 @@ System.out.println("Reminder of this number is:"+ (a%b));
 
 
     //  <<<<----- Question 8 --------> 
+ /*    public static void main(String[] args) {
+         System.out.println("   j  a    v  v    a ");
+         System.out.println("   j a a   v  v   a  a ");
+         System.out.println("j  j aaaa  v  v   aaaa ");
+         System.out.println(" jj  a  a  v  v   a   a ");
+    } */
+
+
+    // <<<<<--------------- Question 9 ----------------->>>>>
+
+    public static void main(String[] args) {
+        
+    }
 }
