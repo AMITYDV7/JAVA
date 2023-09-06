@@ -34,6 +34,7 @@
              int result = num1+num2;
 
              System.out.println("Sum of your number is :"+ result);
+             scan.close();
         }
     }
 
