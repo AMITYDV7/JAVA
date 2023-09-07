@@ -69,17 +69,42 @@ System.out.println("Reminder of this number is:"+ (a%b));
 
 
   // <<<<<<-------------- Question 11 ----------->>>>>>>>>
-   public static void main(String[] args) {
+   /*public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
-    System.out.println("Enter your radius");;
-    int radius = scan.nextInt();
+    System.out.print("Enter your radius");
+    double radius = scan.nextDouble();
 
-    double area = 3.14*radius;
+    double area = 3.14*radius*radius;
+
     double perimeter = 2*3.14*radius;
 
-    System.out.println("Area of a Circle"+ area);
-    System.out.println("perimeter of a Circle"+ perimeter);
+    System.out.println("Area of a Circle:"+ area);
+    System.out.println("perimeter of a Circle:"+ perimeter);
 
     scan.close();
+   }  */
+
+   //<<<<<<------------ Question 12 ----------->>>
+
+
+ /*   public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+
+System.out.print("Enter your 1st Number:");
+int a = scan.nextInt();
+System.out.print("Enter your 2nd Number:");
+int b = scan.nextInt();
+System.out.print("Enter your 3rd Number:");
+int c = scan.nextInt();
+
+float aver = (a+b+c)/3;
+System.out.println("Average of your number is:" + aver);
+scan.close();
+
+   }*/
+
+   //<<<<--------Question =13 -------------->>>>>>>>>>
+   public static void main(String[] args) {
+    
    }
 }
