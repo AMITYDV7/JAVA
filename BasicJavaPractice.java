@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 public class BasicJavaPractice 
 {
     // This is the question <<<----number 6--------> of exercise
@@ -53,7 +53,33 @@ System.out.println("Reminder of this number is:"+ (a%b));
 
     // <<<<<--------------- Question 9 ----------------->>>>>
 
-    public static void main(String[] args) {
-        
-    }
+   /*  public static void main(String[] args) {
+        System.out.println((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)); 
+    }  */
+
+
+
+// <<<<<------- Question 10 ------------->>>>>>
+/*public static void main(String[] args) {
+   double result = 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+   System.out.println(result);
+
+} */
+
+
+
+  // <<<<<<-------------- Question 11 ----------->>>>>>>>>
+   public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter your radius");;
+    int radius = scan.nextInt();
+
+    double area = 3.14*radius;
+    double perimeter = 2*3.14*radius;
+
+    System.out.println("Area of a Circle"+ area);
+    System.out.println("perimeter of a Circle"+ perimeter);
+
+    scan.close();
+   }
 }
