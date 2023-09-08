@@ -99,12 +99,20 @@ int c = scan.nextInt();
 
 float aver = (a+b+c)/3;
 System.out.println("Average of your number is:" + aver);
+      <<<<<<--------        Or    --------------->>>
+System.out.println("Average of your number is:" + (a+b+c)/3);
+
 scan.close();
 
    }*/
 
    //<<<<--------Question =13 -------------->>>>>>>>>>
    public static void main(String[] args) {
-    
+    int a= 15, b=30,temp;
+    temp = a;
+    a=b;
+    b=temp;
+    //System.out.println("After swapping : a, b = "+a+","+ +b);
+    System.out.println("After swapping : a, b = "+a+ ", "+b);
    }
 }
