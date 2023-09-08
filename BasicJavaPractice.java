@@ -107,12 +107,37 @@ scan.close();
    }*/
 
    //<<<<--------Question =13 -------------->>>>>>>>>>
-   public static void main(String[] args) {
-    int a= 15, b=30,temp;
-    temp = a;
-    a=b;
-    b=temp;
-    //System.out.println("After swapping : a, b = "+a+","+ +b);
-    System.out.println("After swapping : a, b = "+a+ ", "+b);
-   }
+
+
+   /*    public static void main(String[] args) {
+   Scanner scan = new Scanner(System.in);
+
+   System.out.print("Enter your Lenght");;
+   double Lenght = scan.nextDouble();
+
+   System.out.print("Enter your Hieght:");
+double Hieght = scan.nextDouble();
+
+System.out.println("Area of a reactangle is:"+ Lenght*Hieght);
+System.out.println("Perimeter of a reactangle is:"+ 2*(Lenght+Hieght));
+
+   } */
+
+   //<<<<<<---------- Question= 14 ---------->>>>>>>>>>>>
+
+   // Skip just print American Flag 😒
+    
+// <<<<<<-----------Question =15 ------------>>>>>>>>>>
+
+public static void main(String[] args) {
+  int a= 23, b=34,temp;
+  System.out.println("Before swaping the number:"+ a + ","+ b);
+  temp = a;
+  a=b;
+b = temp;
+
+System.out.println("After swaping the numbers: "+ a + " , "+b);
+
+
+}
 }
