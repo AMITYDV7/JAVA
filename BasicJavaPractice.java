@@ -129,7 +129,7 @@ System.out.println("Perimeter of a reactangle is:"+ 2*(Lenght+Hieght));
     
 // <<<<<<-----------Question =15 ------------>>>>>>>>>>
 
-public static void main(String[] args) {
+ /*public static void main(String[] args) {
   int a= 23, b=34,temp;
   System.out.println("Before swaping the number:"+ a + ","+ b);
   temp = a;
@@ -139,5 +139,19 @@ b = temp;
 System.out.println("After swaping the numbers: "+ a + " , "+b);
 
 
+} */
+//  <<<<<<----------- Question 16 --------->>>>>>>>>
+ /*public static void main(String[] args) {
+  System.out.println("+ \"\"\"\"\"\"\"\"\"\" +");
+  System.out.println("[ |  O   O  | ]");
+  System.out.println("  |    ^    |  ");
+  System.out.println("  |   '_'   |  ");
+  System.out.println("  + ------- +  ");
+  
+}   */
+
+// <<<<<<<--------- Question 17 --------->>>>>>>>>>
+public static void main(String[] args) {
+  
 }
 }
