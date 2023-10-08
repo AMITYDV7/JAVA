@@ -60,7 +60,7 @@ else{
 // <<<<---------- Question ==3 ----------->>>>>>>>>>>>>>>
 //Compare three number and tell wqhich is greatest
 
-import java.util.Scanner;
+ /* import java.util.Scanner;
 class ConditionQuestionPractice{
     public static void main(String[] args) {
        
@@ -86,5 +86,27 @@ else{
 
 
 sc.close();
+    }
+} */
+
+//          <<--------- Question = 4 ------------>>
+import java.util.Scanner;
+class ConditionQuestionPractice{
+    public static void main(String[] args) {
+        System.out.println("Enter yout number:");
+        Scanner sc = new Scanner(System.in);
+        float f = sc.nextFloat();
+
+        if(f<0){
+            System.out.println("negative number");
+        }
+        else if(f>0){
+            System.out.println("Positive number");
+        }
+        else{
+            System.out.println("Your number is Zero");
+        }
+        sc.close();
+
     }
 }
