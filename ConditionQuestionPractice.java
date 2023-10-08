@@ -90,10 +90,11 @@ sc.close();
 } */
 
 //          <<--------- Question = 4 ------------>>
+/* 
 import java.util.Scanner;
 class ConditionQuestionPractice{
     public static void main(String[] args) {
-        System.out.println("Enter yout number:");
+        System.out.print("Enter yout number:");
         Scanner sc = new Scanner(System.in);
         float f = sc.nextFloat();
 
@@ -108,5 +109,17 @@ class ConditionQuestionPractice{
         }
         sc.close();
 
+    }
+} */
+
+//<<<<<<<<<-------- Question 5 ------->>>>>>
+import java.util.Scanner;
+class ConditionQuestionPractice{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your Number");
+        int a = sc.nextInt();
+
+        
     }
 }
