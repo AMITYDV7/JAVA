@@ -31,7 +31,7 @@ class array_1d{
         }
         for(int j =0; j<=4; j++)
         {
-            System.out.println("Your stored array vale are" + a[j]);
+            System.out.println("Your stored array value are " + a[j]);
         }
        
       
