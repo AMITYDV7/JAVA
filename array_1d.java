@@ -18,7 +18,7 @@
 //     }
     
 // }
-import java.util.Scanner;
+/*import java.util.Scanner;
 class array_1d{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -37,4 +37,20 @@ class array_1d{
       
 scan.close();
     }
+} */
+//import java.util.Scanner;
+class array_1d{
+    public static void main(String[] args) {
+      int [][]a = {{2,3,4},
+                   {4,6,7},
+                   {8,9,0}    }  ;
+
+                   for(int i=0;i<=2;i++){
+                    for(int j=0;j<=2;j++){
+                        System.out.print(a[i][j] + "_");
+                    }
+                    System.out.println(" ");
+                   }
+    }
 }
+
