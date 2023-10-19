@@ -39,18 +39,35 @@ scan.close();
     }
 } */
 //import java.util.Scanner;
+// class array_1d{
+//     public static void main(String[] args) {
+//       int [][]a = {{2,3,4},
+//                    {4,6,7},
+//                    {8,9,0}    }  ;
+
+//                    for(int i=0;i<=2;i++){
+//                     for(int j=0;j<=2;j++){
+//                         System.out.print(a[i][j] + "_");
+//                     }
+//                     System.out.println(" ");
+//                    }
+//     }
+// }
+
+class Fan{
+    String Brand;
+    int no_of_blades;
+    float price;
+}
+
 class array_1d{
     public static void main(String[] args) {
-      int [][]a = {{2,3,4},
-                   {4,6,7},
-                   {8,9,0}    }  ;
-
-                   for(int i=0;i<=2;i++){
-                    for(int j=0;j<=2;j++){
-                        System.out.print(a[i][j] + "_");
-                    }
-                    System.out.println(" ");
-                   }
+          Fan f[] = new Fan[5];
+          for(int i=0;i<=f.length-1;i++)
+          {
+          System.out.println(f[i]);
+          }
     }
 }
+
 
