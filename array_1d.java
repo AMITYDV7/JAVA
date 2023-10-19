@@ -65,8 +65,11 @@ class array_1d{
           Fan f[] = new Fan[5];
           for(int i=0;i<=f.length-1;i++)
           {
-          System.out.println(f[i]);
+        System.out.println(f[i] = new Fan());
           }
+          f[1].Brand = "Usha";
+          System.out.println(f[1].Brand);
+
     }
 }
 
