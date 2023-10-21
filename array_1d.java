@@ -54,23 +54,32 @@ scan.close();
 //     }
 // }
 
-class Fan{
-    String Brand;
-    int no_of_blades;
-    float price;
-}
+// class Fan{
+//     String Brand;
+//     int no_of_blades;
+//     float price;
+// }
 
+// class array_1d{
+//     public static void main(String[] args) {
+//           Fan f[] = new Fan[5];
+//           for(int i=0;i<=f.length-1;i++)
+//           {
+//         System.out.println(f[i] = new Fan());
+//           }
+//           f[1].Brand = "Usha";
+//           System.out.println(f[1].Brand);
+
+//     }
+// }
+import java.util.Arrays;
 class array_1d{
     public static void main(String[] args) {
-          Fan f[] = new Fan[5];
-          for(int i=0;i<=f.length-1;i++)
-          {
-        System.out.println(f[i] = new Fan());
-          }
-          f[1].Brand = "Usha";
-          System.out.println(f[1].Brand);
-
+        int []a = {1,2,3,4,5};
+        int []b= Arrays.copyOf(a,5);
+        for(int i=0;i<=4;i++){
+            System.out.print(b[i] + " ");
+        }
     }
 }
-
 
