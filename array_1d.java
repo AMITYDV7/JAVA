@@ -75,11 +75,28 @@ scan.close();
 import java.util.Arrays;
 class array_1d{
     public static void main(String[] args) {
-        int []a = {1,2,3,4,5};
-        int []b= Arrays.copyOf(a,5);
-        for(int i=0;i<=4;i++){
-            System.out.print(b[i] + " ");
-        }
+       // int []a = {1,2,3,4,5};
+
+        // use of copyOf method of Arrays class
+        // int []b= Arrays.copyOf(a,5);
+         //      use fill method of Arrays class
+    //     Arrays.fill(b,6);
+    //     for(int i=0;i<=4;i++){
+    //         System.out.print(b[i] + " ");
+    //     }System.out.println(" ");
+    //     for(int i=0;i<=4;i++){
+    //         System.out.print(a[i] + " ");
+    //     }
+    // }
+    int[] a = {3, 6, 2, 4, 4, 5};
+    int[] b = Arrays.copyOf(a, a.length);
+    
+    Arrays.sort(b);
+    // System.out.println(Arrays.toString(b));
+    for(int i =0; i<=5;i++){
+        System.out.print(b[i] +" ");
     }
+    
+}
 }
 
