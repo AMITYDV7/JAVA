@@ -23,6 +23,7 @@ if(res==0){
     } else {
         System.out.println("s2 is greater than s1");
     }
+    System.out.println(("AlakhPhy pandey Sir").regionMatches(9, ("SohanKE pandey"), 8, 6));
     }
     
 }
