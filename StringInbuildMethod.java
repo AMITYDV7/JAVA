@@ -4,6 +4,8 @@ public class StringInbuildMethod {
         System.out.println(s.charAt(6));
         System.out.println(s.indexOf('z'));
         System.out.println(s.indexOf('R',2));
-        
+        System.out.println(s.indexOf("Ra"));
+        System.out.println(s.indexOf("Ra",3));
+
     }
 }
