@@ -20,11 +20,18 @@ public class StringInbuildMethod {
 
         // 
         String s2 = "RajaRamMohanRoy";
-        String [] arr = s2.split("a");
-        for(String elem: arr){
+        String s3 = "RajaRamMohanRoy";
+        
+        String [] arr = s2.split("a");// this is a split method which can remove any character or string from the main string and store them in the form of arrays of string which we have to print by for loop or for each loop 
+        String [] arr2 = s3.split("Ram");
+        
+        for(String elem: arr){// this is for each loop 
             System.out.println(elem);
-        }
-
+             
+        } System.out.println("\n");
+for(String elem2 : arr2){
+    System.out.println(elem2);
+}
 
     }
 }
