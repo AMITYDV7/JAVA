@@ -12,13 +12,13 @@ public class StringInbuildMethod {
         // System.out.println(s.indexOf("Ra",3));
 
 
-    String s1 = "AmitYadav";
+   /*  String s1 = "AmitYadav";
         s1.toUpperCase();
         System.out.println(s1); // output is same as s1 bacause we are not create a new string
-        System.out.println(s1.toUpperCase()); // Output is AMITYADAV beacause we are creating new string in sout 
+        System.out.println(s1.toUpperCase()); */ // Output is AMITYADAV beacause we are creating new string in sout 
 
 
-        // 
+        /* 
         String s2 = "RajaRamMohanRoy";
         String s3 = "RajaRamMohanRoy";
         
@@ -31,7 +31,11 @@ public class StringInbuildMethod {
         } System.out.println("\n");
 for(String elem2 : arr2){
     System.out.println(elem2);
-}
+}  */
+
+
+
+
 
     }
 }
