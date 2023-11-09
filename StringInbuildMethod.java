@@ -1,6 +1,7 @@
+
 public class StringInbuildMethod {
     public static void main(String[] args) {
-        String s = "RajaRamMohanRoy";
+      //  String s = "RajaRamMohanRoy";
 
         // This is the example of charAt() method of string
         // System.out.println(s.charAt(6));
@@ -33,7 +34,9 @@ for(String elem2 : arr2){
     System.out.println(elem2);
 }  */
 
+StringBuilder s1 =new StringBuilder("Amit Yadav");
 
+System.out.print(s1.reverse());
 
 
 
