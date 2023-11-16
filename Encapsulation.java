@@ -46,6 +46,10 @@ class Dog{
     //   breed = breed;
     //   age = age; // this variable faces shadowing problem to prevent shadowing problem we have to use this keyword
     //    price = price;
+
+    this.breed = breed;
+    this.age = age;
+    this.price = price;
     }
     public String getBreed(){
         return breed;
