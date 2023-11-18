@@ -73,8 +73,9 @@ class Dog{
 
 class Encapsulation{
     public static void main(String[] args) {
-        Dog d = new Dog();
-        d.Dog("AMit", 345, 245);
+
+        Dog d = new Dog("amit",3.5,666);// this is a constructor call from starting for the core java we use constructor in java
+     //   d.Dog("AMit", 345, 245);
 
         System.out.println(d.getBreed());
         System.out.println(d.getAge());
