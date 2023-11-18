@@ -42,14 +42,23 @@ class Dog{
     private double age;
     private int price;
 
-    public void setDog(String breed,double age,int price){
-    //   breed = breed;
-    //   age = age; // this variable faces shadowing problem to prevent shadowing problem we have to use this keyword
-    //    price = price;
+    // public void setDog(String breed,double age,int price){
+    // //   breed = breed;
+    // //   age = age; // this variable faces shadowing problem to prevent shadowing problem we have to use this keyword
+    // //    price = price;
 
-    this.breed = breed;
-    this.age = age;
-    this.price = price;
+    // this.breed = breed;
+    // this.age = age;
+    // this.price = price;
+    // }
+
+
+    // or we can use special setter name 'constructor '
+    public Dog(String breed, double age,int price){
+        this.breed = breed;
+        this.age = age;
+        this.price = price;
+
     }
     public String getBreed(){
         return breed;
@@ -65,7 +74,7 @@ class Dog{
 class Encapsulation{
     public static void main(String[] args) {
         Dog d = new Dog();
-        d.setDog("AMit", 345, 245);
+        d.Dog("AMit", 345, 245);
 
         System.out.println(d.getBreed());
         System.out.println(d.getAge());
