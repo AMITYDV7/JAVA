@@ -37,7 +37,7 @@
 
 
 // Next example for this keyword
-class Dog{
+/*class Dog{
     private String breed;
     private double age;
     private int price;
@@ -81,5 +81,17 @@ class Encapsulation{
         System.out.println(d.getAge());
         System.out.println(d.getPrice());
 
+    }
+}              */
+
+
+// example of constructor overloading 
+class Book{
+    private String name;
+    private int page;
+    private int price;
+
+
+    public Book()
     }
 }
