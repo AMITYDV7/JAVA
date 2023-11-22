@@ -160,4 +160,31 @@ System.out.println("After swaping the numbers: "+ a + " , "+b);
 
 //  }
 // }
+// Swapping of two number with or without 3rd variable
+// import java.util.Scanner;
+// class BasicJavaPractice{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+
+//     System.out.println("Enter your first number");
+//     int a = sc.nextInt();
+
+//     System.out.println("Enter your second number");
+//     int b = sc.nextInt();
+//     //with 3rd variable
+//  System.out.println("Before swapping " + a +" and " +b);
+// //      int temp = a;
+// //       a=b;
+// //    b=temp; 
+
+// // System.out.println("After swapping " +a + " and " +b);
+
+// // without 3rd variable
+//  a = a+b;
+// b = a - b;
+// a = a - b ;
+//  System.out.println("After swapping " +a + " and " +b);
+
+//   }
+// }
 
