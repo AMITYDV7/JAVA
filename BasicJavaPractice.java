@@ -1,6 +1,6 @@
-import java.util.Scanner;
-public class BasicJavaPractice 
-{
+// import java.util.Scanner;
+// public class BasicJavaPractice 
+// {
     // This is the question <<<----number 6--------> of exercise
     /*  public static void main(String[] args) 
     {
@@ -150,9 +150,14 @@ System.out.println("After swaping the numbers: "+ a + " , "+b);
   
 }   */
 
-// <<<<<<<--------- Question 17 --------->>>>>>>>>>
-public static void main(String[] args) {
+// class BasicJavaPractice{
+//  public static void main(String[] args) {
   
-}
-}
+//   int a = 11;
+// for(int i=1;i<=10;i++){
+//   System.out.println(a + "X" + i + "=" + (a*i));
+// }
+
+//  }
+// }
 
