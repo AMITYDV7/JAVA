@@ -19,3 +19,7 @@ class inheritance{
         rox.dog1();
     }
 }
+
+
+// Example for mutli-level inheritance
+
