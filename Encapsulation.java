@@ -37,7 +37,7 @@
 
 
 // Next example for this keyword
-/*class Dog{
+class Dog{
     private String breed;
     private double age;
     private int price;
@@ -74,7 +74,7 @@
 class Encapsulation{
     public static void main(String[] args) {
 
-        Dog d = new Dog("amit",3.5,666);// this is a constructor call from starting for the core java we use constructor in java
+       Dog d = new Dog("amit",3.5,666);// this is a constructor call from starting for the core java we use constructor in java
      //   d.Dog("AMit", 345, 245);
 
         System.out.println(d.getBreed());
@@ -82,16 +82,6 @@ class Encapsulation{
         System.out.println(d.getPrice());
 
     }
-}              */   
+}                
 
 
-// example of constructor overloading 
-class Book{
-    private String name;
-    private int page;
-    private int price;
-
-
-    public Book()
-    }
-}
