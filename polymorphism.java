@@ -33,14 +33,17 @@ public void fly(){
 public void run(){
     System.out.println("plane can run fast");
 }
+public void fuel(){
+    System.out.println("you can fuel this");
+}
  }
+ 
+//  class launch{
+//  public static void main(String[] args){
+//     cargoplane cp = new cargoplane();
+//     passplane pp = new passplane();
+//     fighterplane fp = new fighterplane();
 /* 
- class polymorphism{
- public static void main(String[] args){
-    cargoplane cp = new cargoplane();
-    passplane pp = new passplane();
-    fighterplane fp = new fighterplane();
-
     plane ref;
 
     ref = cp;
@@ -54,5 +57,25 @@ public void run(){
     ref = fp;
     ref.fly();
     ref.run();
- }
- } */ // or 
+   // ref.fuel(); */
+//  }
+//  }  // or we can use method for executing this multiple times
+class  airport{
+public void permit(plane ref){
+    ref.fly();
+    ref.run();
+}
+}
+
+class polymorphism{
+    public static void main(String[] args) {
+         cargoplane cp = new cargoplane();
+    passplane pp = new passplane();
+    fighterplane fp = new fighterplane();
+        airport a = new airport();
+
+        a.permit(cp);
+        a.permit(pp);
+        a.permit(fp);
+    }
+}
