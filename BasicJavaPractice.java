@@ -29,7 +29,14 @@ System.out.print("Hey there\n");
 System.out.println("I am data");
 
 //Question 2nd
+System.out.println("*\n**\n***\n****");
 
+// question 3
+System.out.print(2+4+5);
+
+//Question 4
+System.out.println(45*32);
+System.out.println(32-45);
   }
 } 
 
