@@ -23,5 +23,13 @@ System.out.println("Area is"+area  +"perimter is"+perimeter);
         int n=12345;
         System.out.println(n + "6" + "7");
 
+        int x = 455;
+        int first_no = x/100;
+        int second_no = (x/10)%10;
+        int third_no =x%10;
+        int result = first_no + second_no + third_no;
+        System.out.println(result);
+
+
     }
 }
