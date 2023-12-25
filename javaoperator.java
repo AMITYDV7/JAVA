@@ -14,5 +14,14 @@ System.out.println("Area is"+area  +"perimter is"+perimeter);
         number = 2345;
         number += 8;
         
+
+        int F =76;
+        double C = (F-32)*5/9;
+        System.out.println(C);
+
+
+        int n=12345;
+        System.out.println(n + "6" + "7");
+
     }
 }
