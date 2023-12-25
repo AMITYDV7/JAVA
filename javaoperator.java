@@ -23,7 +23,7 @@ System.out.println("Area is"+area  +"perimter is"+perimeter);
         int n=12345;
         System.out.println(n + "6" + "7");
 
-        int x = 455;
+        int x = 455;// This type question is solved by modulus and divide approach
         int first_no = x/100;
         int second_no = (x/10)%10;
         int third_no =x%10;
