@@ -31,5 +31,11 @@ System.out.println("Area is"+area  +"perimter is"+perimeter);
         System.out.println(result);
 
 
+        // we can use this appraoch for reverse this number by just print each digit one by one 
+        // just remind ine thing you have to add there hundred tens value digit with them
+
+        
+
+
     }
 }
