@@ -36,6 +36,8 @@ System.out.println("Area is"+area  +"perimter is"+perimeter);
 
         int result1 = third_no*100 + second_no*10 + first_no;
         System.out.println(result1);
+long t = (long)Math.pow(2,30);
+        System.out.println(t);
 
 
     }
