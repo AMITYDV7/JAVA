@@ -12,6 +12,9 @@ public class inputbyuser {
 
         System.out.println("Your product of these number is "+ (num1*num2));
         sc.close(); 
+
+        // que 3 
+        
     }
     
 }
