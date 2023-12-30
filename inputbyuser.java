@@ -13,7 +13,10 @@ public class inputbyuser {
         System.out.println("Your product of these number is "+ (num1*num2));
         sc.close(); 
 
-        // que 3 
+        // que 3 area of rectangle related question 
+        
+        System.out.println("Enter length ");
+        double l = sc.nextDouble();
         
     }
     
