@@ -1,38 +1,38 @@
 
-// class book{
-//  private  int page; // This is data member in encapsulation . but inreal time they are instance variable
+// // class book{
+// //  private  int page; // This is data member in encapsulation . but inreal time they are instance variable
 
-//  public void  setData(int x)
-//  {
-// if(x>0){
-//     page = x;
-// }
-// else{
-//     System.out.println("invalid number");
-// }
-// }
-// public int getData(){
-//     if(page>0){
-//         return page;
-//     }
-//     else{
-//         System.out.println("Book is empty");
-//         return 0;
-//     }
-//  }
-// }
+// //  public void  setData(int x)
+// //  {
+// // if(x>0){
+// //     page = x;
+// // }
+// // else{
+// //     System.out.println("invalid number");
+// // }
+// // }
+// // public int getData(){
+// //     if(page>0){
+// //         return page;
+// //     }
+// //     else{
+// //         System.out.println("Book is empty");
+// //         return 0;
+// //     }
+// //  }
+// // }
 
 
-// public class Encapsulation {
-//     public static void main(String []args){
-// book b = new book();
-// // b.page= 34;
-// // System.out.print(b.page);
-// b.setData(0);
-// System.out.println(b.getData());
+// // public class Encapsulation {
+// //     public static void main(String []args){
+// // book b = new book();
+// // // b.page= 34;
+// // // System.out.print(b.page);
+// // b.setData(0);
+// // System.out.println(b.getData());
 
-//     }
-// }
+// //     }
+// // }
 
 
 
@@ -55,9 +55,9 @@ class Dog{
 
     // or we can use special setter name 'constructor '
     public Dog(String breed, double age,int price){
-        this.breed = breed;
-        this.age = age;
-        this.price = price;
+        breed = breed;
+        age = age;
+        price = price;
 
     }
     public String getBreed(){
@@ -82,6 +82,21 @@ class Encapsulation{
         System.out.println(d.getPrice());
 
     }
-}                
+}      
+// class dog{
+//     private int age;
+//     public void setAge(int x){
+//         age = x;
+//     }
+//     public int getAge(){
+//         return age ; 
+//     }
+// }
 
-
+// class Encapsulation{
+//     public static void main(String[] args) {
+//         dog d = new dog();
+//         d.setAge(34);
+//        System.out.println(d.getAge()); 
+//     }
+// }
