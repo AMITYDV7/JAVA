@@ -18,6 +18,10 @@ public class inputbyuser {
         System.out.println("Enter length ");
         double l = sc.nextDouble();
         
+        System.out.println("ENter your breadth ");
+        double b = sc.nextDouble();
+
+        System.out.println("Area of rectangle is " + (l*b));
     }
     
 }

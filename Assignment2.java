@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
-
+// This code without apply opps concept on this
 class Square{
     float length;
     float area;
@@ -87,3 +87,5 @@ class Assignment2{
        c.display();
     }
 }
+
+
