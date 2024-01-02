@@ -99,3 +99,33 @@
 //     }
 // }
 
+// Question 8
+// import java.util.Scanner;
+// class inputbyuser{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your numbers: ");
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int c = sc.nextInt();
+
+//         System.out.println("All number are Equal: "+(a==b&&b==c&&a==c));
+//         System.out.println(" Any Two number are equal: "+(a==b||b==c||a==c));
+//     }
+// }
+
+
+// Question 9 
+import java.util.Scanner;
+class inputbyuser{
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your numbers:");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(a<50&&a<b);
+        
+    }
+}
