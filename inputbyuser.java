@@ -131,3 +131,17 @@
 // }
 
 // Queston 10 
+import java.util.Scanner;
+class inputbyuser{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your marks: ");
+        double a = sc.nextDouble();        
+        double b = sc.nextDouble();        
+        double c = sc.nextDouble();   
+        
+        System.out.println("Total marks is: "+(a+b+c));
+        System.out.println("Percentage is: "+((a+b+c)*100/300));
+    }
+}
