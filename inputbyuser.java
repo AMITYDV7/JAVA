@@ -26,26 +26,76 @@
     
 // }
 
-import java.util.Scanner;
-class inputbyuser{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// que 4
+// import java.util.Scanner;
+// class inputbyuser{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your name:");
-        String name = sc.nextLine();
+//         System.out.print("Enter your name:");
+//         String name = sc.nextLine();
 
-        System.out.println("Enter your Roll number:");
-        int rollnu = sc.nextInt();
+//         System.out.println("Enter your Roll number:");
+//         int rollnu = sc.nextInt();
 
-        sc.nextLine();////To consume '\n' left by ENTER KEY, it is not consumed by nextInt()
+//         sc.nextLine();////To consume '\n' left by ENTER KEY, it is not consumed by nextInt()
 
-        System.out.print("Enter your field of interest:");
-        // we can also add consume line there 
-        String field = sc.nextLine();
+//         System.out.print("Enter your field of interest:");
+//         // we can also add consume line there 
+//         String field = sc.nextLine();
        
 
-        System.out.println("My name is "+ name + " My roll number is " + rollnu + " My field of interest is " + field);
-        sc.close();
-    }
+//         System.out.println("My name is "+ name + " My roll number is " + rollnu + " My field of interest is " + field);
+//         sc.close();
 
-}
+       
+         
+
+//     }
+
+// }
+
+// que 5
+// import java.util.Scanner;
+// class inputbyuser{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your side: ");
+//         int side = sc.nextInt();
+
+//         System.out.println("Perimeter of Square is "+ (4*side));
+//         System.out.println("Area of square is "+(side*side));
+
+//         sc.close();
+//     }
+// }
+
+
+// Question 6
+// import java.util.Scanner;
+// class inputbyuser{
+//     public static void main(String[] args) {
+//         int a;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter your number:");
+//         a = sc.nextInt();
+
+//         System.out.println("Square of your number: "+(a*a));
+//     }
+// }
+
+// Question 7
+// import java.util.Scanner;
+// class inputbyuser{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your words: ");
+//         String s1 = sc.nextLine();
+//         String s2 = sc.nextLine();
+
+//         System.out.println(s1+s2);
+//     }
+// }
+
