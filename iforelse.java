@@ -48,9 +48,13 @@ class iforelse{
 
         System.out.print("Enter your Quantity: ");
         int a = sc.nextInt();
-    if(a>10){
 
-    System.out.println("Your amount is: "+ ((a*100)-((a*100)/10)));
+       
+    if(a>10){
+         System.out.print("Enter your percentage: ");
+        int p = sc.nextInt();
+
+    System.out.print(((a*100)-((1.0/p)*a*100)));
     }
 else{
 
