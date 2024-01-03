@@ -151,6 +151,13 @@ class circle extends shape{
     }
 }
 
+class goemetry{ // baar baar same task ko krne k leya we just create a method 
+    public void permit(shape ref){
+        ref.acceptInput();
+        ref.compute();
+        ref.display();
+    }
+}
 
 class Assignment2{
     public static void main(String[] args) {
@@ -158,16 +165,43 @@ class Assignment2{
         reactangle r = new reactangle();      // creating object
         circle c = new circle();
 
-        s.acceptInput();// calling by reference
-        s.compute();
-        s.display();
 
-        r.acceptInput();
-        r.compute();
-        r.display();
+        goemetry gc = new goemetry();
+        gc.permit(s);
+        gc.permit(r);
+        gc.permit(c);
 
-        c.acceptInput();
-        c.compute();
-        c.display();
+        // s.acceptInput();// calling by reference      this is loose coupling 
+        // s.compute();    // calling by reference
+        // s.display();// calling by reference
+
+        // r.acceptInput();// calling by reference
+        // r.compute();// calling by reference
+        // r.display();// calling by reference
+
+        // c.acceptInput();// calling by reference
+        // c.compute();// calling by reference
+        // c.display();// calling by reference
+
+        // in above polymorphism is not present to apply polymorphism we have to create parent type referece 
+        // for this reference  we can point to any type of child type 
+
+        // shape ref; // reference is created
+
+        // ref = s;// ref is pointing to the square object
+        // ref.acceptInput();
+        // ref.compute();
+        // ref.display();
+
+        // ref = r;
+        // ref.acceptInput();
+        // ref.compute();       // It increases the code redundancy 
+        // ref.display();   // so we just use method to implement this
+
+        // ref = c;
+        // ref.acceptInput();
+        // ref.compute();
+        // ref.display();
+
     }
 }
