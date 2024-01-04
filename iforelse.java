@@ -86,24 +86,57 @@ import javax.sound.midi.Soundbank;
 
 
 // Question 4
+// class iforelse{
+//     public static void main(String[] args) {
+//         int s,yos;
+
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your Salary: ");
+//         s = sc.nextInt();
+
+//         System.out.print("Enter your year of services: ");
+//         yos = sc.nextInt();
+
+//         if(yos>5){
+//             System.out.print("Enter salary bonus is :"+(s/100*5)+ "And Salary is: "+(s + (s/100*5)));
+//         }
+
+//         else{
+//             System.out.println("Your salary is: "+ s);
+//         }
+//     }
+// }
+
+
+//        Question 5
 class iforelse{
     public static void main(String[] args) {
-        int s,yos;
-
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your Salary: ");
-        s = sc.nextInt();
+        System.out.print("Enter your marks: ");
+        int a = sc.nextInt();
 
-        System.out.print("Enter your year of services: ");
-        yos = sc.nextInt();
-
-        if(yos>5){
-            System.out.print("Enter salary bonus is :"+(s/100*5)+ "And Salary is: "+(s + (s/100*5)));
+        if(a<25){
+            System.out.println("Your grade is F");
         }
-
+        else if((a>=25)&& (a<45)){
+            System.out.println("Your grade is E");
+        }
+        else if((a>=45)&& (a<50)){
+            System.out.println("Your grade is D");
+        }
+        else if((a>=50)&&(a<60)){
+            System.out.println("Your grade is C ");
+        }
+        else if((a>=60)&&(a<80)){
+            System.out.println("Your grade is B");
+        }
+        else if((a>=80)&&(a<=100)){
+            System.out.println("Your grade is A");
+        }
         else{
-            System.out.println("Your salary is: "+ s);
+            System.out.println("Padh le Bhai kya kr rha hai life mai");
         }
     }
 }
