@@ -1,7 +1,9 @@
-// import java.util.Scanner;
+ import java.util.Scanner;
 // public class iforelse {
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
+
+import javax.sound.midi.Soundbank;
 
 //         System.out.print("Enter your length and breadth: ");
 //         int l = sc.nextInt();
@@ -41,27 +43,27 @@
 
 // Question 3 -- my approach of this question
 
-import java.util.Scanner;
-class iforelse{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// import java.util.Scanner;
+// class iforelse{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your Quantity: ");
-        int a = sc.nextInt();
+//         System.out.print("Enter your Quantity: ");
+//         int a = sc.nextInt();
 
        
-    if(a>10){
-         System.out.print("Enter your percentage: ");
-        int p = sc.nextInt();
+//     if(a>10){
+//          System.out.print("Enter your percentage: ");
+//         int p = sc.nextInt();
 
-    System.out.print(((a*100)-((1.0/p)*a*100)));
-    }
-else{
+//     System.out.print(((a*100)-((1.0/p)*a*100)));
+//     }
+// else{
 
-    System.out.println("your amount is "+ (a*100));
-}
-    }
-}
+//     System.out.println("your amount is "+ (a*100));
+// }
+//     }
+// }
 
 
 // This is a another appraoch for this question
@@ -81,4 +83,29 @@ else{
 //     }
 //   }
 // }
+
+
+// Question 4
+class iforelse{
+    public static void main(String[] args) {
+        int s,yos;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your Salary: ");
+        s = sc.nextInt();
+
+        System.out.print("Enter your year of services: ");
+        yos = sc.nextInt();
+
+        if(yos>5){
+            System.out.print("Enter salary bonus is :"+(s/100*5)+ "And Salary is: "+(s + (s/100*5)));
+        }
+
+        else{
+            System.out.println("Your salary is: "+ s);
+        }
+    }
+}
+
 
