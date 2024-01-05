@@ -110,35 +110,105 @@ import javax.sound.midi.Soundbank;
 
 
 //        Question 5
+// class iforelse{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your marks: ");
+//         int a = sc.nextInt();
+
+//         if(a<25){
+//             System.out.println("Your grade is F");
+//         }
+//         else if((a>=25)&& (a<45)){
+//             System.out.println("Your grade is E");
+//         }
+//         else if((a>=45)&& (a<50)){
+//             System.out.println("Your grade is D");
+//         }
+//         else if((a>=50)&&(a<60)){
+//             System.out.println("Your grade is C ");
+//         }
+//         else if((a>=60)&&(a<80)){
+//             System.out.println("Your grade is B");
+//         }
+//         else if((a>=80)&&(a<=100)){
+//             System.out.println("Your grade is A");
+//         }
+//         else{
+//             System.out.println("Padh le Bhai kya kr rha hai life mai");
+//         }
+//     }
+// }
+
+
+//    Question 6
+
+// class iforelse{
+//     public static void main(String[] args) {
+        
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your 1st age: ");
+//         int a= sc.nextInt();
+
+//         System.out.print("Enter your 2nd age: ");
+//         int b= sc.nextInt();
+
+//         System.out.print("Enter your 3rd age: ");
+//         int c = sc.nextInt();
+
+
+//         // for oldest
+//         if((a>=b)&&(a>=c)){
+//             System.out.println("1st person is oldest");
+//         }
+//         else if((b>=a)&&(b>=c)){
+//             System.out.println("2nd is oldest");
+//         }
+//         else{
+//             System.out.println("C is oldest");
+//         }
+
+//         // for youngest
+//         if((a<=b)&& (a<=c)){
+//             System.out.println("A is Youngest");
+//         }
+//         else if((b<=a) && (b<=c)){
+//             System.out.println("B is Youngest");
+//         }
+//         else{
+//             System.out.println("C is Youngest");
+//         }
+
+//     }
+// }
+
+
+// We can also use another appraoch for this 
+//by using in bulid method of maths class 
+
 class iforelse{
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your marks: ");
-        int a = sc.nextInt();
+        System.out.print("Enter your 1st age: ");
+        int a= sc.nextInt();
 
-        if(a<25){
-            System.out.println("Your grade is F");
-        }
-        else if((a>=25)&& (a<45)){
-            System.out.println("Your grade is E");
-        }
-        else if((a>=45)&& (a<50)){
-            System.out.println("Your grade is D");
-        }
-        else if((a>=50)&&(a<60)){
-            System.out.println("Your grade is C ");
-        }
-        else if((a>=60)&&(a<80)){
-            System.out.println("Your grade is B");
-        }
-        else if((a>=80)&&(a<=100)){
-            System.out.println("Your grade is A");
-        }
-        else{
-            System.out.println("Padh le Bhai kya kr rha hai life mai");
-        }
+        System.out.print("Enter your 2nd age: ");
+        int b= sc.nextInt();
+
+        System.out.print("Enter your 3rd age: ");
+        int c = sc.nextInt();
+
+       
+        
+        System.out.println("The oldest in this is: "+Math.max(Math.max(a, b),c));
+        System.out.println("Youngest among them: "+ Math.min(Math.min(a, b),c));
     }
 }
+
+
 
 
