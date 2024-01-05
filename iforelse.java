@@ -188,24 +188,46 @@ import javax.sound.midi.Soundbank;
 // We can also use another appraoch for this 
 //by using in bulid method of maths class 
 
-class iforelse{
-    public static void main(String[] args) {
+// class iforelse{
+//     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your 1st age: ");
-        int a= sc.nextInt();
+//         System.out.print("Enter your 1st age: ");
+//         int a= sc.nextInt();
 
-        System.out.print("Enter your 2nd age: ");
-        int b= sc.nextInt();
+//         System.out.print("Enter your 2nd age: ");
+//         int b= sc.nextInt();
 
-        System.out.print("Enter your 3rd age: ");
-        int c = sc.nextInt();
+//         System.out.print("Enter your 3rd age: ");
+//         int c = sc.nextInt();
 
        
         
-        System.out.println("The oldest in this is: "+Math.max(Math.max(a, b),c));
-        System.out.println("Youngest among them: "+ Math.min(Math.min(a, b),c));
+//         System.out.println("The oldest in this is: "+Math.max(Math.max(a, b),c));
+//         System.out.println("Youngest among them: "+ Math.min(Math.min(a, b),c));
+//     }
+// }
+
+
+// Question 7
+class iforelse{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your number: ");
+        int a = sc.nextInt();
+
+        if(a<0){
+            System.out.println("The absolute value of your number is "+ a*-1);
+        }
+        else{
+            System.out.println("The absolute value of your number is "+a);
+        }
+
+        
+// we can also use this in build method of Math class for finding absolute value of any number 
+        System.out.println(Math.abs(-45));
     }
 }
 
