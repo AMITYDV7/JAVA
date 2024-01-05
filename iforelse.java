@@ -211,25 +211,47 @@ import javax.sound.midi.Soundbank;
 
 
 // Question 7
-class iforelse{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// class iforelse{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your number: ");
-        int a = sc.nextInt();
+//         System.out.print("Enter your number: ");
+//         int a = sc.nextInt();
 
-        if(a<0){
-            System.out.println("The absolute value of your number is "+ a*-1);
-        }
-        else{
-            System.out.println("The absolute value of your number is "+a);
-        }
+//         if(a<0){
+//             System.out.println("The absolute value of your number is "+ a*-1);
+//         }
+//         else{
+//             System.out.println("The absolute value of your number is "+a);
+//         }
 
-        
-// we can also use this in build method of Math class for finding absolute value of any number 
-        System.out.println(Math.abs(-45));
-    }
-}
+
+// // we can also use this in build method of Math class for finding absolute value of any number 
+//         System.out.println(Math.abs(-45));
+//     }
+// }
+
+// Question 8
+// class iforelse{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter the number of class held: ");
+//         double held = sc.nextInt();
+
+//         System.out.print("Enter the number of class atennded: ");
+//         double attend = sc.nextInt();
+
+//         double per = attend/held*100;
+
+//         if(per>75){
+//             System.out.println("Your percentage of attendance is "+ per + " You are Eligible");
+//         }
+//         else{
+//             System.out.println("Your the not eligible: " + per + " Because of this");
+//         }
+//     }
+// }
 
 
 
