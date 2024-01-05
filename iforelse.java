@@ -268,6 +268,28 @@ import javax.sound.midi.Soundbank;
 // }
 
 // Question 11
+// class iforelse{
+//     public static void main(String[] args) {
+      
+//         Scanner sc = new Scanner(System.in);
+        
+//         System.out.print("Enter your character: ");
+//         String a = sc.nextLine();
+
+//         int b = (int)a.charAt(0);
+        
+//         if((b>=65)&&(b<=90)){
+//             System.out.println("This is upper case character");
+//         }
+//         else if((b>=97)&&(b<=122)){
+//             System.out.println("This is lower case character");
+//         }
+//         else{
+//             System.out.println("This is invalid input");
+//         }
+//     }
+// }
+
 
 
 
