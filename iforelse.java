@@ -291,6 +291,30 @@ import javax.sound.midi.Soundbank;
 // }
 
 
+//       Level ===2
+// Question 1
+class iforelse{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your year: ");
+        int a = sc.nextInt();
+
+        if(a%4==0){
+            System.out.println("This is a leap year");
+
+            if(a%100==0){
+                if(a%400==0){
+                System.out.print("This is so divide by 400");
+            }
+        }
+        else{
+            System.out.print(" This is not a leap year");
+        }
+    }
+}
+}
+
+
 
 
 
