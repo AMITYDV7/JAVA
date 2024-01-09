@@ -19,18 +19,18 @@
 // 33333
 
 // Question ==2
-// class looplooploop{
-//     public static void main(String []args){
-//         int n =5;
+class looplooploop{
+    public static void main(String []args){
+        int n =5;
 
-//         for(int i=0;i<n;i=i+1){     // outer loop 
-//             for(int j=0;j<=i;j++){  // inner loop just remember about everytime inner will be restart when i value is change
-//                 System.out.print("*");
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+        for(int row=1;row<=n;row++){     // outer loop 
+            for(int col=1;col<=row;col++){  // inner loop just remember about everytime inner will be restart when i value is change
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
 
 // Output :-
 // *
@@ -41,11 +41,3 @@
 
 
 
-// Question 3
-class looplooploop{
-    public static void main(String[] args) {
-        for(int i = 0;i<5;i++){
-            for(int j=0;)
-        }
-    }
-}
