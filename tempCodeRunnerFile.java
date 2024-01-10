@@ -1,2 +1,1 @@
-
-    // System.out.println(b);
+            for(int col =N;col>=row;col-- ){

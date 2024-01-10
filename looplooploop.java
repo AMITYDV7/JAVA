@@ -42,18 +42,19 @@
 
 
 //Question 3)
-// class looplooploop{
-//     public static void main(String[] args) {
-//         int N =5;
+class looplooploop{
+    public static void main(String[] args) {
+        int N =5;
 
-//         for(int row =1;row<=N;row++){
-//             for(int col =N;col>=row;col-- ){
-//                 System.out.print("* ");
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+        for(int row =1;row<=N;row++){
+            for(int col =N;col>=row;col-- ){
+    
+                System.out.print(row+" ");
+            }
+            System.out.println();
+        }
+    }
+}
 
 // Output:-
 // * * * * * 
@@ -61,3 +62,58 @@
 // * * * 
 // * * 
 // * 
+
+//Question 4
+
+// class looplooploop{
+//     public static void main(String[] args) {
+//          for(int row =1;row<=5;row++){
+//             for(int col = 1;col<=row;col++){
+//                 System.out.print(col+" ");
+//             }
+//             System.out.println();
+//          }
+//     }
+// }
+
+
+// Output:=
+// 1 
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+
+// Question 5
+
+// class looplooploop{
+//     public static void main(String[] args) {
+        // int N =5;
+        // int n = N-1;
+
+        // for(int row =1;row<=N;row++){
+        //     for(int col = 1;col<=row;col++){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+        // for(int row1 = 1;row1<=n;row1++){
+        //     for(int col1 =n;col1>=row1;col1--){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+
+
+        // kunal approach 
+    //     int N=5;
+    //     for(int row =0;row<=2*N-1;row++){
+    //         int totalCol = row>N ? 2*N-row:row;
+
+    //         for(int col=1;col<=totalCol;col++){
+    //             System.out.print("* ");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
+    //}
