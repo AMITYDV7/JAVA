@@ -42,19 +42,19 @@
 
 
 //Question 3)
-class looplooploop{
-    public static void main(String[] args) {
-        int N =5;
+// class looplooploop{
+//     public static void main(String[] args) {
+//         int N =5;
 
-        for(int row =1;row<=N;row++){
-            for(int col =N;col>=row;col-- ){
+//         for(int row =1;row<=N;row++){
+//             for(int col =N;col>=row;col-- ){
     
-                System.out.print(row+" ");
-            }
-            System.out.println();
-        }
-    }
-}
+//                 System.out.print(row+" ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
 
 // Output:-
 // * * * * * 
@@ -117,3 +117,46 @@ class looplooploop{
     //     }
     // }
     //}
+
+
+    
+// Question 7
+    // class looplooploop{
+    //     public static void main(String[] args) {
+            
+    //         int N =10;
+            
+    //         for(int row =0;row<N;row++){            //outer loop
+    //             //there are 3 inner loop for spaces ,star and spaces
+    //             // For spaces
+    //             for(int col = 0;col<N-row-1;col++){
+    //                 System.out.print("_ ");
+    //             }
+
+    //             // For stars
+    //             for(int col=0;col<2*row+1;col++){
+    //                 System.out.print("7 ");
+    //             }
+
+    //             // For spaces
+    //             for(int col = 0;col<N-row-1;col++){
+    //                 System.out.print("_ ");
+    //             }
+    //             System.out.println();
+
+    //         }
+    //     }
+    // }
+
+
+    //Output:=
+// _ _ _ _ _ _ _ _ _ 7 _ _ _ _ _ _ _ _ _ 
+// _ _ _ _ _ _ _ _ 7 7 7 _ _ _ _ _ _ _ _
+// _ _ _ _ _ _ _ 7 7 7 7 7 _ _ _ _ _ _ _
+// _ _ _ _ _ _ 7 7 7 7 7 7 7 _ _ _ _ _ _
+// _ _ _ _ _ 7 7 7 7 7 7 7 7 7 _ _ _ _ _ 
+// _ _ _ _ 7 7 7 7 7 7 7 7 7 7 7 _ _ _ _
+// _ _ _ 7 7 7 7 7 7 7 7 7 7 7 7 7 _ _ _
+// _ _ 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 _ _
+// _ 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 _ 
+// 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7
