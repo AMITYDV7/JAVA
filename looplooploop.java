@@ -119,7 +119,7 @@
     //}
 
 
-    
+
 // Question 7
     // class looplooploop{
     //     public static void main(String[] args) {
@@ -160,3 +160,25 @@
 // _ _ 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 _ _
 // _ 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 _ 
 // 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7
+
+
+// Question 8
+class looplooploop{
+    public static void main(String[] args) {
+        int N=5;
+
+        // outer loop
+        for(int row=0;row<N;row++){
+            for(int col =0;col<row;col++){
+                System.out.print("_");
+            }
+            for(int col =0;col<2*N-(2*row+1);col++){
+                System.out.print("7");
+            }
+            for(int col =0;col<row;col++){
+                System.out.print("_");
+            }
+            System.out.println();
+        }
+    }
+}
