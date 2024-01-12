@@ -323,3 +323,32 @@
 // 1 0 1
 // 0 1 0 1
 // 1 0 1 0 1
+
+// Question 12
+
+class looplooploop{
+    public static void main(String[] args) {
+        int N =4;
+        int space = N+2;// My approach
+        // int space = 2*(n-1); // Striver approach
+
+        for(int row=1;row<=N;row++){
+            // numbers
+            for(int col =1;col<=row;col++){
+                System.out.print(col);
+            } 
+            //spaces
+            for(int col=1;col<=space;col++){
+                System.out.print("-");
+            } 
+            // numbers
+            for(int col =1;col<=row;col++){
+                System.out.print(col);
+            } 
+            
+            System.out.println();
+            space = space-2;
+        }
+       
+    }
+}
