@@ -293,3 +293,33 @@
 // 7 7 7
 // 7 7
 // 7
+
+// Question 11
+
+// class looplooploop{
+//     public static void main(String[] args) {
+//         int N = 5;
+
+//         for(int row =1;row<=N;row++){
+
+//             for(int col =1;col<=row;col++){
+             
+
+//                if((col+row)%2==0){
+//                 System.out.print("1 ");
+//                }
+//                else{
+//                 System.out.print("0 ");
+//                }
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+//Output:=
+// 1 
+// 0 1
+// 1 0 1
+// 0 1 0 1
+// 1 0 1 0 1
