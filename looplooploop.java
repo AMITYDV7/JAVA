@@ -384,3 +384,25 @@
 // 4 5 6
 // 7 8 9 10
 // 11 12 13 14 15
+
+
+// Question 14
+
+// class looplooploop{
+//     public static void main(String[] args) {
+//         int N =5;
+//         for(int row =1;row<=N;row++){
+//             for(char ch ='A';ch<='A'+row;ch++){
+//                 System.out.print(ch+" ");
+//             }
+//                 System.out.println();
+//         }
+//     }
+// }
+
+// output:-
+// A B 
+// A B C
+// A B C D
+// A B C D E
+// A B C D E F
