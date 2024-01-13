@@ -326,29 +326,61 @@
 
 // Question 12
 
-class looplooploop{
-    public static void main(String[] args) {
-        int N =4;
-        int space = N+2;// My approach
-        // int space = 2*(n-1); // Striver approach
+// class looplooploop{
+//     public static void main(String[] args) {
+//         int N =4;
+//         int space = N+2;// My approach
+//         // int space = 2*(n-1); // Striver approach
 
-        for(int row=1;row<=N;row++){
-            // numbers
-            for(int col =1;col<=row;col++){
-                System.out.print(col);
-            } 
-            //spaces
-            for(int col=1;col<=space;col++){
-                System.out.print("-");
-            } 
-            // numbers
-            for(int col =1;col<=row;col++){
-                System.out.print(col);
-            } 
+//         for(int row=1;row<=N;row++){
+//             // numbers
+//             for(int col =1;col<=row;col++){
+//                 System.out.print(col);
+//             } 
+//             //spaces
+//             for(int col=1;col<=space;col++){
+//                 System.out.print("-");
+//             } 
+//             // numbers
+//             for(int col =1;col<=row;col++){
+//                 System.out.print(col);
+//             } 
             
-            System.out.println();
-            space = space-2;
-        }
+//             System.out.println();
+//             space = space-2;
+//         }
        
-    }
-}
+//     }
+// }
+
+
+// Output:-
+// 1------1
+// 12----12
+// 123--123
+// 12341234
+
+
+// Question 13
+
+// class looplooploop{
+//     public static void main(String[] args) {
+//         int N =5;
+//         int num=1;
+
+//         for(int row=1;row<=5;row++){
+//             for(int col =1;col<=row;col++){
+//                System.out.print(num+" ");
+//                num = num+1;
+//             }
+//         System.out.println();
+//         }
+//     }
+// }
+
+// Output:-
+// 1 
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// 11 12 13 14 15
