@@ -406,3 +406,17 @@
 // A B C D
 // A B C D E
 // A B C D E F
+
+// Question 15
+
+// class looplooploop{
+//     public static void main(String[] args) {
+//         int N =5;
+//         for(int row =1;row<=N;row++){
+//             for(char ch ='A';ch<='A'+(N-row);ch++){
+//                 System.out.print(ch+" ");
+//             }
+//                 System.out.println();
+//         }
+//     }
+// }
