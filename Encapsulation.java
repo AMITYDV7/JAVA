@@ -112,9 +112,35 @@
 //         Encapsulation gp = new Encapsulation();
 //         System.out.println(gp.getPage());
 //     }
-// }
+// 
 
+// this code is for default constructor and constructor overloading 
+class Demo{
+    private int a;
+    private int b;
 
+    Demo(){
+        System.out.println("This is a zero parameter constructor"); // we have to create this constructor if we want to execute Demo call of zero parameter
+    }
 
+    Demo(int a,int b){ // THis is also called constructor overloading = same name constructor but different parameters 
+        this.a = a;
+        this.b = b;
+    }
 
+    void disp(){
+        System.out.println(a);
+        System.out.println(b);
+    }
+
+}
+class Encapsulation{
+    public static void main(String[] args) {
+        Demo d = new Demo();// constructor call (which have zero parameter )
+        d.disp();
+
+        Demo d1 = new Demo(12,34); // constructor call (which have 2 integer parameter)
+        d1.disp();
+    }
+}
 
