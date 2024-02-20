@@ -33,3 +33,19 @@
 //     System.out.println(total_sum);
 //     }
 // }
+
+
+class ArrayPractice{
+    public static void main(String[] args) {
+        int a[]= {1,3,5,6,3};
+        int n = a.length;
+
+        for(int i=0;i<n;i++){                                  //Time complexity is 0(n)  and space complexity is 0(1)
+            for(int j = i+1;j<n;j++){
+                if(a[i]==a[j]){
+                    System.out.println("Same element is "+ a[i]);
+                }
+            }
+        }
+    }
+}
