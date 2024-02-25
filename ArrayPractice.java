@@ -59,11 +59,30 @@ class ArrayPractice{
        };
 
       for(int i=0;i<a.length;i++){
-        for(int j=0;j<a[0].length;j++){
-            System.out.print(a[i][j] + " ");
-        }
-        System.out.print("\n");
+        for(int j=i;j<a[0].length;j++){
+           int temp = a[i][j];
+           a[i][j]= a[j][i];
+           a[j][i]=temp;
+        } 
       }
+
+      // SWapping 
+      for(int k=0;k<a.length;k++){
+        int Li =0;
+        int Ri = a[0].length-1;
+       
+        while(Li<Ri){
+          int tepo = a[k][Li];
+          a[k][Li]= a[k][Ri];
+          a[k][Ri]= tepo;
+          Li++;
+          Ri--;
+        }
+      }
+
+       for(var mark:a){
+        System.out.println(Arrays.toString(mark));
+       }
 
 }
 }
