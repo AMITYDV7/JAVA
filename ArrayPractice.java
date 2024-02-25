@@ -35,17 +35,35 @@
 // }
 
 
+// class ArrayPractice{
+//     public static void main(String[] args) {
+//         int a[]= {1,3,5,6,3};
+//         int n = a.length;
+
+//         for(int i=0;i<n;i++){                                  //Time complexity is 0(n)  and space complexity is 0(1)
+//             for(int j = i+1;j<n;j++){
+//                 if(a[i]==a[j]){
+//                     System.out.println("Same element is "+ a[i]);
+//                 }
+//             }
+//         }
+//     }
+// }
+import java.util.Arrays;
 class ArrayPractice{
     public static void main(String[] args) {
-        int a[]= {1,3,5,6,3};
-        int n = a.length;
+       int a[][]= {
+        {1,2,3},
+        {4,5,6},
+        {7,8,9}
+       };
 
-        for(int i=0;i<n;i++){                                  //Time complexity is 0(n)  and space complexity is 0(1)
-            for(int j = i+1;j<n;j++){
-                if(a[i]==a[j]){
-                    System.out.println("Same element is "+ a[i]);
-                }
-            }
+      for(int i=0;i<a.length;i++){
+        for(int j=0;j<a[0].length;j++){
+            System.out.print(a[i][j] + " ");
         }
-    }
+        System.out.print("\n");
+      }
+
+}
 }
